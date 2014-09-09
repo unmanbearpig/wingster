@@ -1,6 +1,3 @@
-*= require style
-*= require bootstrap
-*= require fontello
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -14,5 +11,8 @@
  * file per style scope.
  *
  *= require_tree .
+ *= require style
+ *= require bootstrap
+ *= require fontello
  *= require_self
  */
